@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page>
+    <display-name>eCommerce-template</display-name>
+    <description>Drag'n drop enabled</description>
+    <form/>
+    <regions>
+        <config>
+            <context>true</context>
+            <allowPath>${site}/parts/*</allowPath>
+        </config>
+        <region name="main"/>
+    </regions>
+</page>
