@@ -45,11 +45,11 @@
     <div th:include="com.demo.myproject:/site/parts/navbar/navbar.html::header"></div>
 </header>
 <body>
-<!--<div data-portal-region="main" id="wrapper">-->
-<!--    <div data-th-if="${mainRegion}" data-th-each="component : ${mainRegion.components}" data-th-remove="tag">-->
-<!--        <div data-portal-component="${component.path}" data-th-remove="tag"></div>-->
-<!--    </div>-->
-<!--</div>-->
+<div data-portal-region="main" id="wrapper">
+    <div data-th-if="${mainRegion}" data-th-each="component : ${mainRegion.components}" data-th-remove="tag">
+        <div data-portal-component="${component.path}" data-th-remove="tag"></div>
+    </div>
+</div>
 </body>
 <footer>
     <div th:include="com.demo.myproject:/site/parts/footer/footer.html::footer"></div>
