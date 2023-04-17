@@ -20,7 +20,7 @@ dependencies {
     include "com.enonic.xp:lib-export:${xpVersion}"
     include "com.enonic.xp:lib-cluster:${xpVersion}"
     include "com.enonic.xp:lib-project:${xpVersion}"
-    include 'com.enonic.lib:lib-landingpage:2.0.0'
+    include 'com.enonic.lib:lib-landingpage:2.0.1'
     include 'com.enonic.lib:lib-util:2.2.1'
     include 'com.enonic.lib:lib-http-client:3.0.0'
     //include "com.enonic.xp:lib-auth:${xpVersion}"
